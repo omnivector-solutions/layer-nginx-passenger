@@ -50,6 +50,7 @@ def configure_website(website):
 The MIT License (MIT)
 
 Copyright (c) 2015 Adam Stokes <adam.stokes@ubuntu.com>
+
 Copyright (c) 2016 James Beedy <jamesbeedy@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
