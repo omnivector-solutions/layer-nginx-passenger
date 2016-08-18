@@ -6,7 +6,6 @@ from charms.reactive import (
 
 from charmhelpers.core import hookenv
 from charmhelpers.core.templating import render
-from charmhelpers.fetch import apt_install
 
 import charms.apt
 
