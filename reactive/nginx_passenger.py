@@ -19,6 +19,7 @@ config = hookenv.config()
 def install_nginx():
     """ Install nginx
     """
+    charms.apt.update()
     charms.apt.queue_install(['nginx-extras', 'passenger'])
     charms.apt.install_queued()
 

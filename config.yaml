@@ -37,4 +37,4 @@ options:
       launchpad.
     type: string
     default: |
-      - '561F9B9CAC40B2F7'
+      - 561F9B9CAC40B2F7
