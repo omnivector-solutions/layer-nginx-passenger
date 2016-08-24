@@ -24,7 +24,7 @@ def install_nginx():
 
     if os.path.exists('/etc/nginx/nginx.conf'):
         os.remove('/etc/nginx/nginx.conf')
-    render('nginx.conf.tmpl', '/etc/nginx/nginx.conf')
+    render('nginx.conf.tmpl', '/etc/nginx/nginx.conf', context={})
 
     if os.path.exists('/etc/nginx/sites-enabled/default'):
         os.remove('/etc/nginx/sites-enabled/default')
