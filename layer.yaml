@@ -1,2 +1,3 @@
 includes: ['layer:basic', 'layer:apt', 'interface:http']
+repo: "https://github.com/jamesbeedy/layer-nginx-passenger.git"
 

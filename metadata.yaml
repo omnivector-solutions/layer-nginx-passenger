@@ -1,4 +1,7 @@
 name: nginx-passenger
+summary: Reactive layer for nginx-passenger
+series:
+  - xenial
 provides:
   website:
     interface: http
